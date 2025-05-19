@@ -1,5 +1,7 @@
 odoo:
-  image: midhuneldo/odoo:latest
+  image: 
+    repository: midhuneldo/odoo
+    tag: latest
   admin_passwd: admin
   db:
     host: postgres
@@ -9,7 +11,7 @@ odoo:
   service:
     type: NodePort
     port: 8069
-    nodePort: 30069
+    nodePort: 30070
   pvc:
     storage: 1Gi
 
