@@ -1,7 +1,7 @@
 odoo:
   image: 
     repository: midhuneldo/odoo
-    tag: latest
+    tag: "v67"
   admin_passwd: admin
   db:
     host: postgres
