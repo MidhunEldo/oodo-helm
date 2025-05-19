@@ -11,7 +11,7 @@ odoo:
   service:
     type: NodePort
     port: 8069
-    nodePort: 30070
+    nodePort: 30069
   pvc:
     storage: 1Gi
 
